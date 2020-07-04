@@ -10,15 +10,30 @@ The webinar series can be accessed here:
 2. [Intro to NeuroEvolution](https://www.meetup.com/Disrupt-4-0/events/zfsxrrybcjbbc/)
 3. [NeuroEvolution of Augmenting Topologies (NEAT)](https://www.meetup.com/Disrupt-4-0/events/271212059/)
 
+## Requirements
+
+* neat-python
+* graphviz
+* gym (including box2d environments)
+
 ## Usage
-### Training
+
+You can run this repository either on colab or locally.
+
+### Colab
+
+Run the [Colab Notebook](https://colab.research.google.com/drive/1-Fc57grgRzHnIG7eW3WVne3EjI0RL7KS?usp=sharing
+) to run this repository directly
+
+### Local
+#### Training
 
 * Run the [train.py](train.py) script with the necessary arguments as described in the help menu of the CLI by running `python train.py --help`. 
 * To train on default settings, run `python train.py`
 * You can also stop the training in between and continue it using the `--load_ckpt` argument and passing the path of the checkpoint. For example, `python train.py --load_ckpt checkpoint_G49`
 * By default, the best trained genome is saved as a `best.genome` file.
 
-### Testing
+#### Testing
 
 * Test the trained genome by executing the [run.py](run.py) file with the necessary arguments described in the help menu, `python run.py --help`.
 * On default settings, to run and watch the simulation on the trained genome (`best.genome`), `python run.py --render`.
