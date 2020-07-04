@@ -48,7 +48,7 @@ if __name__=='__main__':
                         help='Flag to whether render the environment or not')
     args = parser.parse_args()
     
-    config_file = 'config-feedforward'
+    config_file = 'config-feedforward.txt'
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          config_file)

@@ -49,7 +49,7 @@ def eval_genomes(genomes, config):
         
         
 def main(gen, save_ckpt, load_ckpt, save_path):
-    config_file = 'config-feedforward'
+    config_file = 'config-feedforward.txt'
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          config_file)
