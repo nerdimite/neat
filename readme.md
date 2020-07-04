@@ -24,7 +24,8 @@ The webinar series can be accessed here:
 * On default settings, to run and watch the simulation on the trained genome (`best.genome`), `python run.py --render`.
 * To run the evaluation consequently for large episodes, `python run.py --episodes 100`.
 
-* You can accesss the trained model and results under [trained_files/](trained_files/)
+* You can accesss the trained model and results under [trained_files/](trained_files/) including the resulting neural network and plots of fitness and speciation.
+
 ## References
 
 - [Efficient Evolution of Neural Network Topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf) (short version of NEAT)
