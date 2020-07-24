@@ -1,14 +1,6 @@
 # NEAT
 
-NEAT (NeuroEvolution of Augmenting Topologies) is an algorithm which applies genetic algorithm to evolve both, the weights and topology of a neural network.
-
-This repository contains the code for the third part of the webinar series I am doing on Evolutionary AI. In this session, I discuss the initial [NEAT paper](http://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf) and demonstrate NEAT applied on Gym Environments, such as the LunarLander.
-
-
-The webinar series can be accessed here:
-1. [Genetic Algorithms](https://www.meetup.com/Disrupt-4-0/events/271033356/)
-2. [Intro to NeuroEvolution](https://www.meetup.com/Disrupt-4-0/events/zfsxrrybcjbbc/)
-3. [NeuroEvolution of Augmenting Topologies (NEAT)](https://www.meetup.com/Disrupt-4-0/events/271212059/)
+NEAT (NeuroEvolution of Augmenting Topologies) is an algorithm which applies genetic algorithm to evolve both, the weights and topology of a neural network. This code in this repository implements NEAT for Gym Environments like the LunarLander.
 
 ## Requirements
 
